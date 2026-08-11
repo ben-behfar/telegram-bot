@@ -6,11 +6,7 @@ from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from telebot.types import ReplyKeyboardMarkup
 from telebot.types import KeyboardButton
 
-bot = telebot.TeleBot('8862117918:AAHmZrBNyHH7nmM25lt4N6LWWxp-wwRtVdo')
-
-# keyboard = ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
-# button2 = KeyboardButton(text='send my info', request_contact=True)
-# keyboard.add(button2)
+bot = telebot.TeleBot('-')
 
 
 #-------------------------------

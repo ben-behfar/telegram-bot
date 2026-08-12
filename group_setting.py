@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('-')
+bot = telebot.TeleBot('_')
 
 @bot.message_handler(content_types=['new_chat_members'])
 def welcome_new_member(message):
